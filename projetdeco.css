@@ -340,3 +340,66 @@ aside {
 }
    }
 
+footer{
+  width: 100%;
+  height: 400px;
+  margin: 2px 2px;
+}
+#BOU{
+  width: 100%;
+  height: 400px;
+  display: block;
+  flex-direction: row;
+   align-content: flex-end;
+}
+#sghir1{
+  height: 400px;
+  width: 1016px;
+  background: #00f3ff;
+  border-radius: 70px;
+  animation-name: changebackground;
+  animation-duration: 30s;
+  animation-iteration-count: infinite ;
+  
+    }
+    @keyframes changebackground{
+    0%{
+        background-image: url(A.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    25%{
+        background-image: url(B.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%{
+        background-image: url(C.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        background-image: url(D.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background-image: url(D.jfif);
+        background-repeat: no-repeat;
+       background-size: cover; }
+             
+    
+           }
+           #A1,#A2,#A3{
+text-align: center;
+display: block;
+align-items: center; 
+font-size: xx-large;    
+padding: 35px 0px;
+font-size: 53px;
+text-decoration: none;
+-webkit-text-stroke: 2px #800053;
+color:greenyellow;
+
+}
+
